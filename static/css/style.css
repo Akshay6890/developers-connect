@@ -1,0 +1,213 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li , a
+{
+    text-decoration: none;
+}
+
+body
+{
+    background-image: linear-gradient(to bottom right,red, rgb(22, 57, 212));
+}
+
+.main_head
+{
+	color:white;
+	font:bold;
+	font-size:80px;
+	font-family: Verdana;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 30px 10%;
+}
+
+.back_img
+{
+    background-image: url(bg.jpg);
+}
+
+nav
+{
+    justify-content: space-between;
+}
+
+.logo
+{
+    float: left;
+    padding-left: 3%;
+}
+
+.nav_links
+{
+    list-style-type: none;
+    text-align: right;
+    justify-content: space-evenly;
+}
+
+.nav_links li
+{
+    display: inline-block;
+}
+
+.nav_links li a 
+{
+    font-size: 18px;
+	font-family: Bahnschrift Light;
+	color:white;
+    text-decoration: none;
+}
+
+
+.event_img
+{
+    text-justify: center;
+    z-index: -1;
+}
+
+.team_desc_heads
+{
+    color:rgba(255, 255, 255, 0.877);
+    font-size: 30px;
+    text-align: center;
+    font-family: Bahnschrift Light;
+}
+
+.about_us_para
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.team_member_img
+{
+    position: absolute;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 90%;
+    opacity: 0;
+    /*transition: .5s ease;*/
+    background-color:white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team_member_img:hover .overlay
+{
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.member_name
+{
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image 
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div_height
+{
+    width:360px;
+    height:auto;
+}
+
+.overlay_name
+{
+    text-align: center;
+}
+
+.overlay_member_info
+{
+    text-justify : distribute; 
+    font-size : small;
+}
+
+.footer_back
+{
+    background-image: url(..\images\bg.jpg);
+}
+
+input[type="submit"]#events
+{
+	background: none;
+	color: white;
+	border: hidden;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+}
+
+input[type="submit"]#gallery
+{
+	background: none;
+	color: white;
+	border: hidden;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+}
+
+button#home_redirect
+{
+    background: none;
+    border: hidden;
+	font: inherit;
+	cursor: pointer;
+}
+
+p#footer_info
+{
+    color:white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a#footer_social_links
+{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+
+a#footer_social_links:hover
+{
+    color:white;
+}
