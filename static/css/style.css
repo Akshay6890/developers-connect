@@ -193,6 +193,16 @@ button#home_redirect
 	cursor: pointer;
 }
 
+input[type="submit"]#team
+{
+    background: none;
+    color: white;
+    border: hidden;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+}
+
 p#footer_info
 {
     color:white;

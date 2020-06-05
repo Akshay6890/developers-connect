@@ -17,5 +17,8 @@ def events():
     #return redirect(url_for('gallery',_anchor='gallery.html'))
     return render_template("events.html")
 
-if __name__ == "__main__":
-    app.run(debug=True)
+@app.route("/team" , methods=['POST' , 'GET'])
+def team():
+    return render_template("team.html")
+
+app.run(debug=True)
