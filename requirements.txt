@@ -15,7 +15,7 @@ defusedxml==0.6.0
 Django==3.1.14
 entrypoints==0.3
 feedfinder2==0.0.4
-feedparser==5.2.1
+feedparser==6.0.10
 Flask==1.1.1
 gunicorn==20.0.4
 idna==2.8
